@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.itens-card{
+    margin: 5px;
+    background-color: #6495ED;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.itens-card > h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.cadastro{
+    margin-left: 32px;
+    padding: 5px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    width: 230px;
+    color: #C3C3C3;
+}
+.itens-card > button{
+    width: 152px;
+    height: 38px;
+    color: white;
+    background-color:#5C5D8D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+     margin-left: 77px; 
+}
+
+@media screen and (min-width: 768px) {
+    .itens-card{
+        width: 420px;
+        height: 520px;
+                
+    }
+    .cadastro{
+        width: 280px;
+        margin-left: 65px;
+
+    }
+    .itens-card > button{
+        margin-left: 130px;
+    }
+    
+}
+    
