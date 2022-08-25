@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <script defer type= 'module' src="./src/index.js"></script>
+
   <title>m2-entrega-blog-m2</title>
 </head>
 <body>
-  
+  <header class="cabecalho">    
+    <figure class= "avatar__usuario">
+    </figure>
+
+   <div class="div__login">
+    <button id="1" class="botao__posts">
+      Logout
+    </button>
+   </div>
+  </header>
+
+  <main class="container">
+    <div>
+        <div class="div__posts">
+          <input type="text" placeholder="No que está pensando">
+          <button id="add__post">Postar</button>
+        </div>
+      <ul class="post__list">
+      </ul>
+    </div>
+  </main>
+
 </body>
 </html>
