@@ -21,5 +21,3 @@ export class apiRequests {
         return userLogin
     }
 }
-
-// apiRequests.login()

@@ -1,3 +1,7 @@
+body{
+    background: #5C5D8D;
+    font-family: 'Inter';
+}
 main {
     display: flex;
     flex-direction: column;
@@ -6,45 +10,70 @@ main {
     margin: 6rem 0;
 }
 form {
+    background-color: #6495ED;
+    width: 440px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 80%;
+    border-radius: 10px;
 }
 
 form > h1 {
+    text-shadow: black 2px;
+    margin-right: 10px;
+    color: #FFFFFF;
     text-align: center;
-    font-size: 1rem;
+    font-size: 35px;
+    border: black;
 }
 form > label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 80%;
     margin: 0 auto;
 }
 form > input {
-    width: 80%;
-    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 297px;
+    height: 49px;
+    margin-top: 5px;
+    margin: 3 auto;
     padding: 12px;
-    color: black;
-    border: 1px solid;
-    border-radius: 4px;
+    border: transparent;
+    border-radius: 10px;
 }
 form > button {
     margin: 2rem 0;
-    background-color: blue;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #5C5D8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     width: 80%;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 8px;
-    border: 1px solid blue;
+    border-radius: 20px;
+    border: transparent;
     color: white;
+    width: 152px;
+    height: 38px;
+    transition: 0.4s;
+}
+form > button:hover {
+    background-color: white;
+    border-color: #5C5D8D 1px solid;
+    color: #5C5D8D;
+    cursor: pointer;
 }
 form > p {
     font-size: 0.8rem;
-}
-form > p > span {
-    color: blue;
-    cursor: pointer;
 }
